@@ -1,0 +1,50 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "qvi/qvi-quran-verse-inserter",
+  "version": "1.0.0",
+  "title": "Quran Verse Inserter",
+  "category": "text",
+  "icon": "format-quote",
+  "description": "Easily insert Quran verse to your post",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "qvi-quran-verse-inserter",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "attributes": {
+    "translation": {
+      "type": "string",
+      "source": "html",
+      "selector": ".qvi-translation"
+    },
+    "arabicAyat": {
+      "type": "string",
+      "source": "html",
+      "selector": ".qvi-arabic-ayat"
+    },
+    "surahRef": {
+      "type": "string",
+      "source": "html",
+      "selector": ".qvi-surah-ref"
+    },
+    "translationIdentifier": {
+      "type": "string",
+      "default": "en.ahmedali"
+    },
+    "surahNumber": {
+      "type": "string",
+      "default": "1:7"
+    },
+    "showOnlyTranslation": {
+      "type": "boolean",
+      "default": false
+    },
+    "verseNumber": {
+      "type": "string",
+      "default": "1"
+    }
+  }
+}
