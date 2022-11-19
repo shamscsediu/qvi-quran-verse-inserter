@@ -5,6 +5,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .editorconfig
+assets/
 
 # Coverage directory used by tools like istanbul
 coverage

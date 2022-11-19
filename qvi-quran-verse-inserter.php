@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       Quran Verse Inserter
  * Description:       Easily insert Quran verse to your post
- * Requires at least: 6.1
+ * Requires at least: 5.8
  * Requires PHP:      7.0
  * Version:           1.0.0
  * Author:            Shams Hasan
